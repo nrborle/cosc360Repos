@@ -1,0 +1,81 @@
+/* FORMATTING FOR TABLE */
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  border-color: white;
+  text-align: center;
+  border-spacing: 2pt;
+}
+
+tbody td:hover{
+  background-color: red;
+}
+
+td{
+  background-color: #E6E9EB;
+  border: solid 1pt #C9D1D4;
+}
+
+td#today{
+  background-color: #1BAFE0;
+}
+
+td#today:hover{
+  background-color: red;
+}
+
+caption{
+  background-color: #7EA87F;
+  padding: 0.5em;
+  text-align: center;
+}
+
+thead tr th{
+  font-weight: bold;
+  font-size: 0.5em;
+  background-color: #E6E9EB;
+  border: solid 1pt #C9D1D4;
+}
+
+tfoot{
+  font-size: 0.70em;
+}
+
+#prev{
+  text-align: left;
+}
+
+#next{
+  text-align: right;
+}
+
+
+/* FORMATTING FOR FORM */
+
+form{
+  background-color: #D4BD7F;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 25em;
+  padding: 0.3em;
+  margin-top: 1em;
+}
+
+input#submit{
+  border-radius: 5px;
+  background-color: white;
+}
+
+input#reset{
+  border-radius: 5px;
+  background-color: white;
+}
+
+p{
+  margin: 0.5em;
+}
